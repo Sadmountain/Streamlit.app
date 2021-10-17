@@ -1,21 +1,4 @@
-from logging import critical
-from math import e
-from os import name
-import streamlit as st
-import pandas as pd
-import plotly.express as px
 
-from sklearn.model_selection import train_test_split
-import numpy as np
-import seaborn as sns
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import GaussianNB
-from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 
 
 #Page layout
